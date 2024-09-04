@@ -1,0 +1,128 @@
+:root{
+    --violet: #201f31;
+    --pink: #ffbade;
+    --grey: #2b2a3b;
+    font-family: 'Poppins', 'Arial';
+}
+*{
+   box-sizing: border-box;
+   color: hsla(0, 0%, 100%, 0.918);
+   padding: 0;
+   margin: 0;
+   font-family: 'Poppins', 'Arial';
+}
+body{
+    background-color: var(--violet);
+    height: 100vh;
+}
+header{
+    margin: 12px 12px; 
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--pink);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.card{
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    background-color: var(--grey);
+}
+.container-card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo{
+    width: 170px;
+   
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.grey-box{
+    width: 100%;
+    height: 100%;
+    padding: 4em;
+}
+.grey-box p{
+    font-size: 14px;
+    line-height: 1.50em;
+    
+}
+.grey-box div, button, img{
+    margin-bottom: 20px;
+}
+
+.search-btn{
+    display: flex;
+     gap: 1em;
+     width: 100%;
+}
+.search-btn input{
+    padding: 20px;
+    height: 50px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 1em;
+    outline: none;
+    border: 0.5px solid black ;
+    
+}
+.search-btn input:focus{
+    border: 0.5px solid rgb(52, 54, 204) ;
+}
+.search-img{
+    background-color: var(--pink);
+    border-radius: 10px;
+    font-size: 1.3em;
+    padding: 15px 16px 11px 16px;
+    color: black;
+}
+.anime-btn{
+
+    color: hsla(0, 0%, 0%, 0.856);
+    background-color: var(--pink);
+    font-size: 20px;
+    font-weight: 600;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.anime-btn i{
+    padding: 5px;
+    font-size: 0.7em;
+    margin-left: 20px;
+    background-color: hsla(0, 0%, 0%, 0.836);
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+}
