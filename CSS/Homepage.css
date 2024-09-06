@@ -144,6 +144,159 @@ nav a:hover{
     aspect-ratio: 1/1;
 }
 
-  
+  /* BELOW HEAADER TAG*/
+  .container-Hianime{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+   
+  }
+  .below-header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+  .share-anime{
+    font-weight: 600;
+    color: var(--pink);
+    font-size: 13px;
+  }
+  .friend{
+    font-size: 12px;
+  }
+
+  /* MAIN SECTION */
+  main{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    gap: 2em;
+  }
+  .content-box1{
+    width: 80%;
+}
+  .content-box2{
+    width: 50%;
+
+  }
+  @media screen and (max-width: 988px) {
+   main{
+    display: grid;
+    width: 100%;
+   }
+    .content-box2,  .content-box1{
+    width: 100%;
+   }
+   .main-box{
+    width: 100%;
+   }
+
+}
+.main-box{
+
+    background-color: var(--grey);
+    border-radius: 20px;
+    font-size: 12px;
+    display: grid;
+    justify-content: space-between;
+    border: 0.5px solid var(--pink);
+    gap: 1.5em;
+    padding: 17px;
+}
+
+.content-box1{
+    font-size: 13.5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.content-box1 p {
+    margin-bottom: 10px;
+    font-size: 13.5px;
+}
+.title-box1{
+    font-size: 1.7em;
+    margin-bottom: 10px;
+   
+}
+.content-box1 ul li{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.header-box2{
+    display: flex;
+    justify-content: space-between;
+}
+.content-box2 h1{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+.header-box2-right{
+    gap: 0.5em;
+    display: flex;
+}
+.header-box2-left{
+    display: flex;
+    gap: 1em;
+
+}
+.box2-content h1{
+ font-size: 1.5em;
+ margin-bottom: 5px;
+
+}
+.box2-footer{
+    display: flex;
+    gap: 1em;
+
+}
+.box2-footer img{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: 0;
+}
+.box2-footer .level-logo{
+    width: 20px;
+    padding: 2px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    
+}
+.box2-footer p{
+    display: flex;
+    align-items: center;
+}
+.box22{
+    margin-bottom: 10px;
+}
+.readmore{
+    text-align: center;
+    border: 1px solid var(--pink);
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
 
 
+footer{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 11px;
+   
+  }
+  .footerend{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
