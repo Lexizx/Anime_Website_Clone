@@ -97,6 +97,7 @@ nav a:hover{
     display: flex;
      gap: 1em;
      width: 100%;
+     cursor: pointer;
 }
 .search-btn input{
     padding: 20px;
@@ -106,6 +107,7 @@ nav a:hover{
     font-size: 1em;
     outline: none;
     border: 0.5px solid black ;
+    
     
 }
 .search-btn input:focus{
@@ -117,6 +119,7 @@ nav a:hover{
     font-size: 1.3em;
     padding: 15px 16px 11px 16px;
     color: black;
+    
   
 }
 .anime-btn{
@@ -130,6 +133,7 @@ nav a:hover{
     border-radius: 20px;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 .anime-btn i{
     padding: 5px;
